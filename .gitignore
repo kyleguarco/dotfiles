@@ -1,0 +1,3 @@
+# Ignore $HOME dotfile pull script
+pull_home.sh
+
