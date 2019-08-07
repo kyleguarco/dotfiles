@@ -6,9 +6,6 @@
 
 # Start the X window manager on login.
 
-# Check for any X servers...
-pidof Xorg > /dev/null
-
-# Did the last command NOT return 0?
-if ! $(test "$?"); then startx; fi
+# Check for an existing X server.
+if ! pidof Xorg || -f /tmp/dis_login; then startx; fi > /dev/null
 

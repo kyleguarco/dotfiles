@@ -9,6 +9,9 @@
 
 BROWSER="firefox"
 EDITOR="vim"
+VISUAL="code"
+PAGER="less"
+SHELL="zsh"
 
 export PATH="$HOME/.local/bin":$PATH
 
