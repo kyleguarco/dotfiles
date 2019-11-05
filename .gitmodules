@@ -1,7 +1,3 @@
-[submodule "awesome-dot-conf"]
-	path = awesome-dot-conf
-	url = https://github.com/FlashDaggerX/awesome-dot-conf
-
 [submodule "YouCompleteMe"]
 	path = vim/bundle/YouCompleteMe
 	url = https://github.com/ycm-core/YouCompleteMe
@@ -10,3 +6,6 @@
 	path = vim/bundle/Vundle.vim
 	url = https://github.com/VUndleVim/Vundle.vim
 
+[submodule "config/awesome-dot-conf"]
+	path = config/awesome-dot-conf
+	url = https://github.com/FlashDaggerX/awesome-dot-conf.git
