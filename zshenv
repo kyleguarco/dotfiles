@@ -12,6 +12,7 @@ EDITOR="vim"
 VISUAL="code"
 PAGER="less"
 SHELL="zsh"
+TERM="st"
 
 export PATH="$HOME/.local/bin":$PATH
 
