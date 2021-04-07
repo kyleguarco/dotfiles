@@ -1,0 +1,37 @@
+#
+# Bash Environment Initialization
+#
+# Aliases and various environment variables go here.
+# This is functionally equivalent to Debian's default .bash_aliases
+#
+
+#PS_BOLD=$(tput bold)
+#PS_NORM=$(tput sgr0)
+#export PS1="${PS_BOLD}\u@\H \W\$${PS_NORM} "
+
+BROWSER="firefox"
+EDITOR="vim"
+VISUAL="code"
+PAGER="less"
+#SHELL="bash"
+#TERM="urxvt"
+
+# Source the local rust installation's environment
+source "$HOME/.cargo/env"
+export PATH=$PATH:"/opt/ghc/bin:$HOME/.local/bin:$HOME/.local/bin/script"
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"$HOME/.local/lib"
+export WINEARCH="win64"
+
+alias ls='ls --color=auto'
+alias top='htop'
+
+alias disconnect='sudo netctl stop-all'
+alias connect='disconnect; sudo netctl start'
+
+alias charge='cat /sys/class/power_supply/BAT0/capacity'
+alias brightness='echo $1 > /sys/class/backlight/intel_backlight/brightness'
+
+alias anime='ssh pihole pihole disable'
+
+alias gksu='pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY'
+

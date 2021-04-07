@@ -1,0 +1,10 @@
+! Main XRDB Resources file
+
+#include ".Xresources.pywal"
+
+! URxvt settings
+URxvt.font: xft:lemon:size=16
+URxvt.scrollBar: False
+URxvt.cursorBlink: 1
+URxvt.cursorUnderline: 1
+

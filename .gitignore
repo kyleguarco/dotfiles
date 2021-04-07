@@ -1,3 +1,4 @@
-# Ignore $HOME dotfile pull script
-pull_home.sh
+# Ignore the dotfile update script, and its list
+update.sh
+update.list
 
