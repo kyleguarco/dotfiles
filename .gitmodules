@@ -8,3 +8,5 @@
 [submodule "config/awesome-dot-conf"]
 	path = config/awesome-dot-conf
 	url = https://github.com/FlashDaggerX/awesome-dot-conf.git
+[submodule "awesome-dot-conf/"]
+	branch = master

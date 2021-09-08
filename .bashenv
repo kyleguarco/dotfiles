@@ -18,9 +18,20 @@ PAGER="less"
 
 # Source the local rust installation's environment
 source "$HOME/.cargo/env"
-export PATH=$PATH:"/opt/ghc/bin:$HOME/.local/bin:$HOME/.local/bin/script"
+
+# This is required for rootless docker
+export DOCKER_HOST="unix://$XDG_RUNTIME_DIR/docker.sock"
+
+export PATH=$PATH:"$HOME/.local/bin:$HOME/.local/bin/script"
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"$HOME/.local/lib"
-export WINEARCH="win64"
+
+export DEBMAIL="kyleguarco55@gmail.com"
+export DEBFULLNAME="Kyle Guarco"
+
+export CLNOTE="$HOME/Documents/Notes/Fall2021"
+function note() {
+	cd $CLNOTE/$1
+}
 
 alias ls='ls --color=auto'
 alias top='htop'
@@ -31,6 +42,7 @@ alias connect='disconnect; sudo netctl start'
 alias charge='cat /sys/class/power_supply/BAT0/capacity'
 alias brightness='echo $1 > /sys/class/backlight/intel_backlight/brightness'
 
+# I can't find any filters for kissanime on the pihole, sooo....
 alias anime='ssh pihole pihole disable'
 
 alias gksu='pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY'
