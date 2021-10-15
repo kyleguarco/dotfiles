@@ -19,11 +19,12 @@ PAGER="less"
 # Source the local rust installation's environment
 source "$HOME/.cargo/env"
 
-# This is required for rootless docker
-export DOCKER_HOST="unix://$XDG_RUNTIME_DIR/docker.sock"
+# Expand program search paths
+export PATH="$HOME/.local/bin:$HOME/.local/bin/script":$PATH
+export LD_LIBRARY_PATH="$HOME/.local/lib":$LD_LIBRARY_PATH
 
-export PATH=$PATH:"$HOME/.local/bin:$HOME/.local/bin/script"
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"$HOME/.local/lib"
+# This is required for rootless docker
+export DOCKER_HOST="unix:///run/user/1000/docker.sock"
 
 export DEBMAIL="kyleguarco55@gmail.com"
 export DEBFULLNAME="Kyle Guarco"
@@ -32,6 +33,8 @@ export CLNOTE="$HOME/Documents/Notes/Fall2021"
 function note() {
 	cd $CLNOTE/$1
 }
+
+alias whatsmyip='curl https://api.ipify.org; echo'
 
 alias ls='ls --color=auto'
 alias top='htop'
