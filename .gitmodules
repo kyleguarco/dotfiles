@@ -1,6 +1,6 @@
 [submodule ".config/awesome-dot-conf"]
 	path = .config/awesome-dot-conf
-	url = https://github.com/FlashDaggerX/awesome-dot-conf.git
+	url = https://github.com/FlashDaggerX/awesome-dot-conf
 [submodule ".vim/plugged/julia-vim"]
 	path = .vim/plugged/julia-vim
 	url = https://github.com/JuliaEditorSupport/julia-vim
