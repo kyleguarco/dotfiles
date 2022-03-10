@@ -4,12 +4,13 @@
 # This file is sourced when a login shell is started (Like logging into a TTY)
 #
 
-# Source the environment file
-if [[ -f ~/.bashenv ]]
-then
-	source ~/.bashenv
-fi
+export LD_LIBRARY_PATH="$HOME/.local/lib":$LD_LIBRARY_PATH
 
+# Source the environment file
+if [[ -f ~/.bash_env ]]
+then
+	source ~/.bash_env
+fi
 # Start an X Display Server if one doesn't already exist
 #pidof Xorg
 #RETVAL=$?
