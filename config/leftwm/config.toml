@@ -1,0 +1,79 @@
+modkey = "Mod4"
+mousekey = "Mod4"
+workspaces = []
+tags = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+layouts = [
+	"Monocle",
+	"MainAndVertStack",
+	"MainAndHorizontalStack",
+	"GridHorizontal",
+	"EvenHorizontal",
+	"EvenVertical",
+	"CenterMain",
+]
+layout_mode = "Tag"
+insert_behavior = "Bottom"
+window_rules = []
+disable_current_tag_swap = false
+disable_tile_drag = false
+focus_behaviour = "Sloppy"
+focus_new_windows = true
+
+keybind = [
+	{ command = "Execute", value = "rofi -modi drun,window -show drun -show-icons", modifier = ["modkey"], key = "r" },
+	{ command = "Execute", value = "rofi -modi window -show window -show-icons", modifier = ["modkey", "Control"], key = "z" },
+	{ command = "Execute", value = "alacritty", modifier = ["modkey"], key = "Return" },
+	{ command = "Execute", value = "pamixer -i 5", modifier = [], key = "XF86XK_AudioRaiseVolume" },
+	{ command = "Execute", value = "pamixer -d 5", modifier = [], key = "XF86XK_AudioLowerVolume" },
+	{ command = "Execute", value = "pamixer -t", modifier = [], key = "XF86XK_AudioMute" },
+	{ command = "Execute", value = "playerctl play-pause", modifier = [], key = "XF86XK_AudioPlay" },
+	{ command = "Execute", value = "playerctl next 2> /dev/null", modifier = [], key = "XF86XK_AudioNext" },
+	{ command = "Execute", value = "playerctl previous 2> /dev/null", modifier = [], key = "XF86XK_AudioPrev" },
+	{ command = "CloseWindow", modifier = ["modkey", "Shift"], key = "c" },
+	{ command = "SoftReload", modifier = ["modkey", "Control"], key = "r" },
+	{ command = "HardReload", modifier = ["modkey", "Shift"], key = "t" },
+	{ command = "Execute", value = "loginctl kill-session $XDG_SESSION_ID", modifier = ["modkey", "Shift"], key = "q" },
+	{ command = "MoveToLastWorkspace", modifier = ["modkey", "Shift"], key = "w" },
+	{ command = "SwapTags", modifier = ["modkey"], key = "w" },
+	{ command = "MoveWindowUp", modifier = ["modkey", "Shift"], key = "Up" },
+	{ command = "MoveWindowDown", modifier = ["modkey", "Shift"], key = "Down" },
+	{ command = "MoveWindowTop", modifier = ["modkey"], key = "s" },
+	{ command = "FocusWindowUp", modifier = ["modkey"], key = "Right" },
+	{ command = "FocusWindowDown", modifier = ["modkey"], key = "Left" },
+	{ command = "FocusWindowUp", modifier = ["modkey"], key = "Tab" },
+	{ command = "FocusWindowDown", modifier = ["modkey", "Shift"], key = "Tab" },
+	{ command = "NextLayout", modifier = ["modkey"], key = "space" },
+	{ command = "PreviousLayout", modifier = ["modkey", "Control"], key = "space" },
+	{ command = "FocusWorkspaceNext", modifier = ["modkey"], key = "Up" },
+	{ command = "FocusWorkspacePrevious", modifier = ["modkey"], key = "Down" },
+	{ command = "ToggleFullScreen", modifier = ["modkey"], key = "f" },
+	{ command = "ToggleSticky", modifier = ["modkey", "Control"], key = "s" },
+	{ command = "ToggleScratchPad", value = "Alacritty", modifier = ["modkey"], key = "x" },
+	{ command = "GotoTag", value = "1", modifier = ["modkey"], key = "1" },
+	{ command = "GotoTag", value = "2", modifier = ["modkey"], key = "2" },
+	{ command = "GotoTag", value = "3", modifier = ["modkey"], key = "3" },
+	{ command = "GotoTag", value = "4", modifier = ["modkey"], key = "4" },
+	{ command = "GotoTag", value = "5", modifier = ["modkey"], key = "5" },
+	{ command = "GotoTag", value = "6", modifier = ["modkey"], key = "6" },
+	{ command = "GotoTag", value = "7", modifier = ["modkey"], key = "7" },
+	{ command = "GotoTag", value = "8", modifier = ["modkey"], key = "8" },
+	{ command = "GotoTag", value = "9", modifier = ["modkey"], key = "9" },
+	{ command = "MoveToTag", value = "1", modifier = ["modkey", "Shift"], key = "1" },
+	{ command = "MoveToTag", value = "2", modifier = ["modkey", "Shift"], key = "2" },
+	{ command = "MoveToTag", value = "3", modifier = ["modkey", "Shift"], key = "3" },
+	{ command = "MoveToTag", value = "4", modifier = ["modkey", "Shift"], key = "4" },
+	{ command = "MoveToTag", value = "5", modifier = ["modkey", "Shift"], key = "5" },
+	{ command = "MoveToTag", value = "6", modifier = ["modkey", "Shift"], key = "6" },
+	{ command = "MoveToTag", value = "7", modifier = ["modkey", "Shift"], key = "7" },
+	{ command = "MoveToTag", value = "8", modifier = ["modkey", "Shift"], key = "8" },
+	{ command = "MoveToTag", value = "9", modifier = ["modkey", "Shift"], key = "9" },
+]
+
+[[scratchpad]]
+name = "Alacritty"
+value = "WINIT_X11_SCALE_FACTOR=1 alacritty -o font.size=14"
+x = 0.46
+y = 0.20
+height = 0.80
+width =  0.54
+
