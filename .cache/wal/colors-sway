@@ -1,0 +1,21 @@
+set $wallpaper /home/kyleg/Pictures/wallpapers/zoe_cyberpop.jpg
+
+set $background #101317
+set $foreground #caeaec
+
+set $color0 #101317
+set $color1 #3860A4
+set $color2 #616997
+set $color3 #B36CBA
+set $color4 #699FB6
+set $color5 #AAA2BC
+set $color6 #A1A2D5
+set $color7 #caeaec
+set $color8 #8da3a5
+set $color9 #3860A4
+set $color10 #616997
+set $color11 #B36CBA
+set $color12 #699FB6
+set $color13 #AAA2BC
+set $color14 #A1A2D5
+set $color15 #caeaec

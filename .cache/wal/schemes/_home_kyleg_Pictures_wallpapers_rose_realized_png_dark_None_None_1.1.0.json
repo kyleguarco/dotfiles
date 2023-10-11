@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kyleg/Pictures/wallpapers/rose_realized.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0e0f0e",
+        "foreground": "#e1e3e4",
+        "cursor": "#e1e3e4"
+    },
+    "colors": {
+        "color0": "#0e0f0e",
+        "color1": "#8E6558",
+        "color2": "#AB9864",
+        "color3": "#67738E",
+        "color4": "#768AA2",
+        "color5": "#9A9B9F",
+        "color6": "#B5C0C6",
+        "color7": "#e1e3e4",
+        "color8": "#9d9e9f",
+        "color9": "#8E6558",
+        "color10": "#AB9864",
+        "color11": "#67738E",
+        "color12": "#768AA2",
+        "color13": "#9A9B9F",
+        "color14": "#B5C0C6",
+        "color15": "#e1e3e4"
+    }
+}

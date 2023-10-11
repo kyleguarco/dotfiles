@@ -1,0 +1,12 @@
+! Main XRDB Resources file
+
+! URxvt settings
+!URxvt.font: xft:Fira Code:style=Bold:size=12
+URxvt.font: xft:IBM Plex Mono:size=13
+URxvt.scrollBar: False
+URxvt.cursorBlink: 1
+URxvt.cursorUnderline: 1
+
+! Include pywal colors
+#include ".cache/wal/colors.Xresources"
+

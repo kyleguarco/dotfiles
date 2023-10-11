@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/kyleg/Pictures/wallpapers/zoe_cyberpop.jpg"
+let background = "#101317"
+let foreground = "#caeaec"
+let cursor     = "#caeaec"
+
+" Colors
+let color0  = "#101317"
+let color1  = "#3860A4"
+let color2  = "#616997"
+let color3  = "#B36CBA"
+let color4  = "#699FB6"
+let color5  = "#AAA2BC"
+let color6  = "#A1A2D5"
+let color7  = "#caeaec"
+let color8  = "#8da3a5"
+let color9  = "#3860A4"
+let color10 = "#616997"
+let color11 = "#B36CBA"
+let color12 = "#699FB6"
+let color13 = "#AAA2BC"
+let color14 = "#A1A2D5"
+let color15 = "#caeaec"

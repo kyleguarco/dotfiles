@@ -7,7 +7,6 @@ Feels like ~/ to me
 * imagemagick (for `import`)
 * polybar
 * alacritty
-* iwctl
 * pipewire (with pipewire-pulse)
 * xrandr
 * firefox
@@ -18,4 +17,4 @@ Feels like ~/ to me
 ## Here's what the rice looks like!
 ![desktop.png](images/desktop.png)
 ![desktop-windowed.png](images/desktop-windowed.png)
-[source](https://images.hdqwalls.com/wallpapers/bthumb/cyberpop-zoe-league-of-legends-z4.jpg)
+[source](https://steamcommunity.com/sharedfiles/filedetails/?id=1184061907)

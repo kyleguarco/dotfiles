@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kyleg/Pictures/wallpapers/zoe_cyberpop.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#101317",
+        "foreground": "#caeaec",
+        "cursor": "#caeaec"
+    },
+    "colors": {
+        "color0": "#101317",
+        "color1": "#3860A4",
+        "color2": "#616997",
+        "color3": "#B36CBA",
+        "color4": "#699FB6",
+        "color5": "#AAA2BC",
+        "color6": "#A1A2D5",
+        "color7": "#caeaec",
+        "color8": "#8da3a5",
+        "color9": "#3860A4",
+        "color10": "#616997",
+        "color11": "#B36CBA",
+        "color12": "#699FB6",
+        "color13": "#AAA2BC",
+        "color14": "#A1A2D5",
+        "color15": "#caeaec"
+    }
+}

@@ -1,0 +1,26 @@
+wallpaper: "/home/kyleg/Pictures/wallpapers/rose_realized.png"
+
+special:
+    background: "#111212"
+    foreground: "#e1e3e4"
+    cursor: "#e1e3e4"
+
+colors:
+  normal:
+    black: "#111212"
+    red: "#946B63"
+    green: "#A1926F"
+    yellow: "#6C778A"
+    blue: "#798697"
+    magenta: "#999A9E"
+    cyan: "#B6BCC4"
+    white: "#e1e3e4"
+  bright:
+    black: "#9d9e9f"
+    red: "#946B63"
+    green: "#A1926F"
+    yellow: "#6C778A"
+    blue: "#798697"
+    magenta: "#999A9E"
+    cyan: "#B6BCC4"
+    white: "#e1e3e4"
